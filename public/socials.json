@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Github",
+    "url": "https://www.github.com/aufarijaal",
+    "icon": "mdi:github"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/aufarijaal",
+    "icon": "mdi:linkedin"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/aufarijaal",
+    "icon": "mdi:instagram"
+  }
+]

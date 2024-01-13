@@ -1,0 +1,133 @@
+{
+  "projects": [
+    {
+      "title": "Billing Playstation",
+      "desc": "Aplikasi windows berbasis desktop untuk mengelola bisnis Playstation seperti main ditempat, sewa, mengelola pemasukan, manajemen operator, dan lain lain.",
+      "techs": [
+        {
+          "name": "Windows Forms",
+          "icon": "mdi:document",
+          "customClasses": []
+        },
+        {
+          "name": ".NET",
+          "icon": "logos:dotnet",
+          "customClasses": []
+        },
+        {
+          "name": "C#",
+          "icon": "devicon:csharp",
+          "customClasses": []
+        }
+      ],
+      "links": [],
+      "images": ["bp-1.webp"]
+    },
+    {
+      "title": "Billing Playstation Electron",
+      "desc": "Aplikasi windows berbasis desktop dengan teknologi web untuk mengelola bisnis Playstation seperti main ditempat, sewa, mengelola pemasukan, manajemen operator, dan lain lain.",
+      "techs": [
+        {
+          "name": "Electron JS",
+          "icon": "devicon:electron",
+          "customClasses": []
+        },
+        {
+          "name": "Vue JS",
+          "icon": "logos:vue",
+          "customClasses": []
+        },
+        {
+          "name": "Sqlite",
+          "icon": "devicon:sqlite",
+          "customClasses": []
+        },
+        {
+          "name": "Vite JS",
+          "icon": "vscode-icons:file-type-vite",
+          "customClasses": []
+        }
+      ],
+      "links": [
+        {
+          "name": "Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/billing_playstation_electron"
+        }
+      ],
+      "images": [
+        "bpe-1.webp",
+        "bpe-2.webp",
+        "bpe-3.webp",
+        "bpe-4.webp",
+        "bpe-5.webp",
+        "bpe-6.webp",
+        "bpe-7.webp",
+        "bpe-8.webp"
+      ]
+    },
+    {
+      "title": "BlogQu (Blogging Website)",
+      "desc": "Blogging web application platform dengan fitur seperti membuat postingan, berkomentar ke postingan, menyimpan postingan, mengelola postingan, mengkategorikan postingan, menambahkan tag pada postingan, dan lain lain.",
+      "techs": [
+        {
+          "name": "Laravel",
+          "icon": "logos:laravel",
+          "customClasses": []
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "devicon:tailwindcss",
+          "customClasses": []
+        },
+        {
+          "name": "MySQL",
+          "icon": "logos:mysql",
+          "customClasses": []
+        }
+      ],
+      "links": [
+        {
+          "name": "Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/blogqu"
+        }
+      ],
+      "images": ["blogqu-1.webp"]
+    },
+    {
+      "title": "Web App untuk Mengelola Produksi Bubuk Cangkang Telur",
+      "desc": "Web app untuk memonitor dan mengelola proses produksi bubuk cangkang telur untuk UMKM dengan fitur seperti input berat produksi dalam KG, tampilan grafik produksi, kontrol mesin penghalus cangkang telur antara on dan off, dan manajemen akun pekerja oleh admin",
+      "techs": [
+        {
+          "name": "Laravel",
+          "icon": "logos:laravel",
+          "customClasses": []
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "devicon:tailwindcss",
+          "customClasses": []
+        },
+        {
+          "name": "MySQL",
+          "icon": "logos:mysql",
+          "customClasses": []
+        },
+        {
+          "name": "IoT",
+          "icon": "eos-icons:iot",
+          "customClasses": ["dark:text-white"]
+        }
+      ],
+      "links": [
+        {
+          "name": "Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/sistem-papbct"
+        }
+      ],
+      "images": ["pbct-1.webp"]
+    }
+  ]
+}

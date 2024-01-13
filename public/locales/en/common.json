@@ -1,0 +1,153 @@
+{
+  "menu": [
+    {
+      "title": "Projects",
+      "path": "#projects",
+      "enabled": true
+    },
+    {
+      "title": "Skills",
+      "path": "#skills",
+      "enabled": true
+    },
+    {
+      "title": "Work",
+      "path": "#work",
+      "enabled": true
+    },
+    {
+      "title": "Edu",
+      "path": "#education",
+      "enabled": true
+    },
+    {
+      "title": "Contact",
+      "path": "#contact",
+      "enabled": true
+    },
+    {
+      "title": "Blog",
+      "path": "/blogs",
+      "enabled": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "devicon:html5",
+      "customClasses": []
+    },
+    {
+      "name": "CSS",
+      "icon": "devicon:css3",
+      "customClasses": []
+    },
+    {
+      "name": "Javascript",
+      "icon": "devicon:javascript",
+      "customClasses": []
+    },
+    {
+      "name": "Typescript",
+      "icon": "devicon:typescript",
+      "customClasses": []
+    },
+    {
+      "name": "PHP",
+      "icon": "devicon:php",
+      "customClasses": []
+    },
+    {
+      "name": "Laravel",
+      "icon": "devicon:laravel",
+      "customClasses": []
+    },
+    {
+      "name": "Vue JS",
+      "icon": "devicon:vuejs",
+      "customClasses": []
+    },
+    {
+      "name": "React JS",
+      "icon": "devicon:react",
+      "customClasses": []
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "devicon:tailwindcss",
+      "customClasses": []
+    },
+    {
+      "name": "Next JS",
+      "icon": "logos:nextjs-icon",
+      "customClasses": []
+    },
+    {
+      "name": "Nuxt JS",
+      "icon": "logos:nuxt-icon",
+      "customClasses": []
+    },
+    {
+      "name": "Supabase",
+      "icon": "devicon:supabase",
+      "customClasses": []
+    },
+    {
+      "name": "Firebase",
+      "icon": "vscode-icons:file-type-firebase",
+      "customClasses": []
+    },
+    {
+      "name": "MySQL",
+      "icon": "devicon:mysql",
+      "customClasses": []
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "devicon:postgresql",
+      "customClasses": []
+    },
+    {
+      "name": "Mongo DB",
+      "icon": "devicon:mongodb",
+      "customClasses": []
+    },
+    {
+      "name": "Node JS",
+      "icon": "devicon:nodejs",
+      "customClasses": []
+    },
+    {
+      "name": "Linux",
+      "icon": "flat-color-icons:linux",
+      "customClasses": []
+    },
+    {
+      "name": "C# Desktop",
+      "icon": "devicon:csharp",
+      "customClasses": []
+    },
+    {
+      "name": "Postman",
+      "icon": "devicon:postman",
+      "customClasses": []
+    },
+    {
+      "name": "Docker",
+      "icon": "devicon:docker",
+      "customClasses": []
+    }
+  ],
+  "heroTitle1": "Hey There, I am Aufa.",
+  "heroTitle2": "A Web Developer.",
+  "bio": "A web developer focusing both front-end and back-end using Laravel, Vue JS, and React JS building fully functional web application, responsive, and great user experience.",
+  "linkToProjectsPage": "Go to Projects page",
+  "sectionTitles": {
+    "projects": "Projects.",
+    "work": "Work Experience.",
+    "edu": "Education.",
+    "skills": "Skills.",
+    "contact": "Get in Touch."
+  },
+  "emailme": "Email me at"
+}
