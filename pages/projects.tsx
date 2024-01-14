@@ -73,9 +73,7 @@ export default function ProjectsPage() {
             <div className="overflow-y-auto bg-white drawer dark:bg-zinc-800 flex-grow-1 md:rounded-tl-xl">
               <div className="h-full max-w-6xl px-4 py-16 mx-auto drawer-body">
                 <div>
-                  <h3 className="text-lg font-bold text-center md:text-2xl md:text-start">
-                    {projectToShow?.title}
-                  </h3>
+                  <h3 className="text-lg font-bold text-center md:text-2xl md:text-start">{projectToShow?.title}</h3>
                 </div>
 
                 <div className="mt-4">
@@ -85,15 +83,8 @@ export default function ProjectsPage() {
                   <div className="flex justify-center gap-2 md:justify-start">
                     {projectToShow?.techs.map((tech, i: number) => {
                       return (
-                        <div
-                          className="grid w-12 h-12 place-items-center"
-                          key={i}
-                        >
-                          <Icon
-                            icon={tech.icon}
-                            width="36"
-                            className={tech.customClasses.join(" ")}
-                          />
+                        <div className="grid w-12 h-12 place-items-center" key={i}>
+                          <Icon icon={tech.icon} width="36" className={tech.customClasses.join(" ")} />
                         </div>
                       );
                     })}
@@ -131,7 +122,7 @@ export default function ProjectsPage() {
                 ) : null}
 
                 {projectToShow?.links.length! > 0 ? (
-                  <div className="flex justify-center mt-5 md:mt-10">
+                  <div className="flex justify-center gap-2 mt-5 md:mt-10">
                     {projectToShow?.links.map((link, i) => {
                       return (
                         <a
@@ -149,9 +140,7 @@ export default function ProjectsPage() {
                 ) : null}
 
                 <div className="max-w-3xl pb-16 mx-auto mt-5 md:mt-10">
-                  <p className="text-xs sm:text-sm md:text-lg">
-                    {projectToShow?.desc}
-                  </p>
+                  <p className="text-xs sm:text-sm md:text-lg">{projectToShow?.desc}</p>
                 </div>
               </div>
             </div>
@@ -179,40 +168,37 @@ export default function ProjectsPage() {
           <div className="grid grid-cols-1 gap-4 px-2 py-4 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {/* Projects items */}
             {mounted
-              ? (t("projects", { returnObjects: true }) as any).map(
-                  (project: any, i: number) => {
-                    return (
-                      <div
-                        className="grid grid-rows-[65%_auto_auto] w-full max-w-[300px] min-w-[250px] h-96 p-4 rounded-lg border dark:border-zinc-700 bg-zinc-50 shadow-sm dark:bg-zinc-800 place-items-center"
-                        key={i}
-                        onClick={() => showDrawer(project)}
-                      >
-                        <img
-                          className="object-cover w-full h-full rounded-lg"
-                          src={`/img/${project.images[0]}`}
-                          alt={`${project.title}'s Screenshot`}
-                        />
+              ? (t("projects", { returnObjects: true }) as any).map((project: any, i: number) => {
+                  return (
+                    <div
+                      className="grid grid-rows-[65%_auto_auto] w-full max-w-[300px] min-w-[250px] h-96 p-4 rounded-lg border dark:border-zinc-700 bg-zinc-50 shadow-sm dark:bg-zinc-800 place-items-center"
+                      key={i}
+                      onClick={() => showDrawer(project)}
+                    >
+                      <img
+                        className="object-cover w-full h-full rounded-lg"
+                        src={`/img/${project.images[0]}`}
+                        alt={`${project.title}'s Screenshot`}
+                      />
 
-                        <div className="self-end text-lg font-semibold select-none line-clamp-2 justify-self-start">
-                          <p>{project.title}</p>
-                        </div>
-
-                        <div className="flex self-end gap-4 justify-self-start">
-                          {project.techs.map((tech: any, i: any) => {
-                            return (
-                              <Icon
-                                icon={tech.icon}
-                                width="28"
-                                key={i}
-                                className={tech.customClasses.join(" ")}
-                              />
-                            );
-                          })}
-                        </div>
+                      <div className="self-end text-lg font-semibold select-none line-clamp-2 justify-self-start">
+                        <p>{project.title}</p>
                       </div>
-                    );
-                  },
-                )
+
+                      <div className="flex self-end gap-4 justify-self-start">
+                        {project.techs.slice(0, 4).map((tech: any, i: any) => {
+                          return <Icon icon={tech.icon} width="28" key={i} className={tech.customClasses.join(" ")} />;
+                        })}
+
+                        {project.techs.length > 4 && (
+                          <div className="w-[28px] h-[28px] rounded-full dark:bg-zinc-700 bg-zinc-200 text-sm flex justify-center items-center">
+                            +{project.techs.length - 4}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })
               : /* Skeletons => */ Array.from({ length: 8 }, (v, i) => {
                   return (
                     <div
@@ -229,12 +215,7 @@ export default function ProjectsPage() {
 
                       <div className="flex self-end gap-2 justify-self-start">
                         {Array.from({ length: 5 }, (v, i) => {
-                          return (
-                            <div
-                              className="rounded-full w-7 h-7 bg-zinc-700 animate-pulse"
-                              key={i}
-                            ></div>
-                          );
+                          return <div className="rounded-full w-7 h-7 bg-zinc-700 animate-pulse" key={i}></div>;
                         })}
                       </div>
                     </div>

@@ -128,6 +128,50 @@
         }
       ],
       "images": ["pbct-1.webp"]
+    },
+    {
+      "title": "Online Book Store",
+      "desc": "Sebuah aplikasi web online book store yang mengkombinasikan Nuxt JS dan Laravel (Sail) untuk UX yang smooth dan Midtrans sebagai payment gateway nya. Nuxt JS meng handle desain frontend nya, sedangkan Laravel untuk backend nya sebagai API, yang memberikan kemudahan navigasi ke koleksi buku dan genre yang beragam.",
+      "techs": [
+        {
+          "name": "Laravel",
+          "icon": "logos:laravel",
+          "customClasses": []
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon:bootstrap",
+          "customClasses": []
+        },
+        {
+          "name": "MySQL",
+          "icon": "logos:mysql",
+          "customClasses": []
+        },
+        {
+          "name": "Docker",
+          "icon": "devicon:docker",
+          "customClasses": []
+        },
+        {
+          "name": "Nuxt JS",
+          "icon": "logos:nuxt-icon",
+          "customClasses": []
+        }
+      ],
+      "links": [
+        {
+          "name": "BE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/online-book-store-backend"
+        },
+        {
+          "name": "FE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/online-book-store-frontend"
+        }
+      ],
+      "images": ["obs-1.png", "obs-2.png", "obs-3.png", "obs-4.png", "obs-5.png"]
     }
   ]
 }

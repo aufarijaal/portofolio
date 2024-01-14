@@ -22,10 +22,7 @@ const MenuList: React.FC<{
   const list = menus.map((menu, i) => {
     return (
       <li key={i}>
-        <Link
-          href={menu.path}
-          className={`nav-item ${menu.enabled ? "" : "nav-item-disabled"}`}
-        >
+        <Link href={menu.path} className={`nav-item ${menu.enabled ? "" : "nav-item-disabled"}`}>
           {menu.title}
         </Link>
       </li>
@@ -34,58 +31,44 @@ const MenuList: React.FC<{
 
   if (breakpoint === "md") {
     list.push(
-      <li
-        className="relative px-2 py-0 cursor-pointer nav-item group"
-        key="three-dot"
-      >
+      <li className="relative px-2 py-0 cursor-pointer nav-item group" key="three-dot">
         <Icon icon="ph:dots-three-bold" width="24" />
 
         <div className="absolute left-0 hidden py-2 px-4 min-w-[100px] duration-500 text-sky-600 dark:text-white rounded-lg bg-zinc-100 dark:bg-zinc-800 top-9 group-hover:animate-in group-hover:fade-in group-hover:block">
           <ul>
-            <div className="mb-2 text-sm font-normal text-zinc-400">
-              Language
-            </div>
+            <div className="mb-2 text-sm font-normal text-zinc-400">Language</div>
             {router.locales?.map((localeName) => {
               return (
                 <li
-                  className={`px-2 py-1 transition-colors rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 ${router.locale === localeName ? "font-bold" : "font-normal"
-                    }`}
+                  className={`px-2 py-1 transition-colors rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 ${
+                    router.locale === localeName ? "font-bold" : "font-normal"
+                  }`}
                   key={localeName}
                   onClick={() => {
-                    if (router.locale !== localeName)
-                      onToggleLanguageClick(localeName);
+                    if (router.locale !== localeName) onToggleLanguageClick(localeName);
                   }}
                 >
                   {localeName.toUpperCase()}
                 </li>
               );
             })}
-            <div
-              className="self-center block w-full h-px my-2 dark:bg-zinc-600 bg-zinc-200"
-              key="divider-3"
-            />
+            <div className="self-center block w-full h-px my-2 dark:bg-zinc-600 bg-zinc-200" key="divider-3" />
             <li className="flex items-center justify-between gap-10" key="theme-toggle">
               <div className="text-sm font-normal text-zinc-400">Theme</div>
               <ThemeToggleBtn />
             </li>
           </ul>
         </div>
-      </li>,
+      </li>
     );
   } else {
     list.push(
       <>
-        <div
-          className="self-center block w-10 h-px md:w-px md:h-8 dark:bg-zinc-600"
-          key="divider-1"
-        />
+        <div className="self-center block w-10 h-px md:w-px md:h-8 dark:bg-zinc-600 bg-sky-200" key="divider-1" />
         <li key="theme-btn">
           <ThemeToggleBtn />
         </li>
-        <div
-          className="self-center block w-10 h-px md:w-px md:h-8 dark:bg-zinc-600"
-          key="divider-2"
-        />
+        <div className="self-center block w-10 h-px md:w-px md:h-8 dark:bg-zinc-600 bg-sky-200" key="divider-2" />
         <li key="i18n-select">
           <div className="relative px-2 cursor-pointer nav-item group">
             {router.locale?.toUpperCase()}
@@ -96,10 +79,9 @@ const MenuList: React.FC<{
                 {router.locales?.map((localeName) => {
                   return (
                     <li
-                      className={`px-2 py-1 transition-colors rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 ${router.locale === localeName
-                          ? "font-bold"
-                          : "font-normal"
-                        }`}
+                      className={`px-2 py-1 transition-colors rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 ${
+                        router.locale === localeName ? "font-bold" : "font-normal"
+                      }`}
                       key={localeName}
                       onClick={() => onToggleLanguageClick(localeName)}
                     >
@@ -111,7 +93,7 @@ const MenuList: React.FC<{
             </div>
           </div>
         </li>
-      </>,
+      </>
     );
   }
 
@@ -139,10 +121,7 @@ const Navbar: React.FC<{
           className="fixed inset-0 z-[70] grid w-screen h-screen bg-white/80 dark:bg-zinc-900/80 backdrop-blur-lg place-items-center animate-in slide-in-from-right"
           id="small-screen-nav-backdrop"
         >
-          <div
-            className="flex flex-col items-center justify-center gap-4"
-            id="small-screen-nav"
-          >
+          <div className="flex flex-col items-center justify-center gap-4" id="small-screen-nav">
             <button
               className="grid p-2 transition rounded-lg text-sky-800 dark:text-white hover:bg-sky-100 dark:hover:bg-sky-200/10 hover:text-sky-500 dark:hover:text-sky-300 place-items-center"
               onClick={() => setShow(false)}

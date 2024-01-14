@@ -128,6 +128,50 @@
         }
       ],
       "images": ["pbct-1.webp"]
+    },
+    {
+      "title": "Online Book Store",
+      "desc": "This is an online book store project that combines Nuxt and Laravel (Sail) for a smooth user experience and Midtrans for the payment gateway. Nuxt handles the design, while Laravel manages the backend, allowing easy navigation through a diverse collection of books and genres. It's a straightforward digital platform for book enthusiasts, where technology and literature seamlessly converge.",
+      "techs": [
+        {
+          "name": "Laravel",
+          "icon": "logos:laravel",
+          "customClasses": []
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "devicon:bootstrap",
+          "customClasses": []
+        },
+        {
+          "name": "MySQL",
+          "icon": "logos:mysql",
+          "customClasses": []
+        },
+        {
+          "name": "Docker",
+          "icon": "devicon:docker",
+          "customClasses": []
+        },
+        {
+          "name": "Nuxt JS",
+          "icon": "logos:nuxt-icon",
+          "customClasses": []
+        }
+      ],
+      "links": [
+        {
+          "name": "BE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/online-book-store-backend"
+        },
+        {
+          "name": "FE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/online-book-store-frontend"
+        }
+      ],
+      "images": ["obs-1.png", "obs-2.png", "obs-3.png", "obs-4.png", "obs-5.png"]
     }
   ]
 }
