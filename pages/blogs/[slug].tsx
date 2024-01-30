@@ -35,10 +35,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }: any) {
   try {
-    const fileName = fs.readFileSync(
-      path.join(process.cwd(), "public", `posts/${slug}.md`),
-      "utf-8",
-    );
+    const fileName = fs.readFileSync(path.join(process.cwd(), "public", `posts/${slug}.md`), "utf-8");
     const { data: frontmatter, content } = matter(fileName);
 
     return {
@@ -78,9 +75,7 @@ export default function Post({ frontmatter, content }: any) {
               <Icon icon="mdi:arrow-left" width="20" />
             </button>
 
-            <div className="w-full text-lg font-bold text-center flex-grow-1">
-              Blogs
-            </div>
+            <div className="w-full text-lg font-bold text-center flex-grow-1">Blogs</div>
 
             <div>
               <ThemeToggleBtn />

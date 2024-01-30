@@ -88,11 +88,6 @@
       "customClasses": []
     },
     {
-      "name": "Supabase",
-      "icon": "devicon:supabase",
-      "customClasses": []
-    },
-    {
       "name": "Firebase",
       "icon": "vscode-icons:file-type-firebase",
       "customClasses": []
@@ -105,11 +100,6 @@
     {
       "name": "PostgreSQL",
       "icon": "devicon:postgresql",
-      "customClasses": []
-    },
-    {
-      "name": "Mongo DB",
-      "icon": "devicon:mongodb",
       "customClasses": []
     },
     {
