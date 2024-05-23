@@ -21,7 +21,9 @@
         }
       ],
       "links": [],
-      "images": ["bp-1.webp"]
+      "images": [
+        "bp-1.webp"
+      ]
     },
     {
       "title": "Billing Playstation Electron",
@@ -93,7 +95,9 @@
           "url": "https://github.com/aufarijaal/blogqu"
         }
       ],
-      "images": ["blogqu-1.webp"]
+      "images": [
+        "blogqu-1.webp"
+      ]
     },
     {
       "title": "Web App for Managing Egg Shell Powder Production",
@@ -117,7 +121,9 @@
         {
           "name": "IoT",
           "icon": "eos-icons:iot",
-          "customClasses": ["dark:text-white"]
+          "customClasses": [
+            "dark:text-white"
+          ]
         }
       ],
       "links": [
@@ -127,11 +133,13 @@
           "url": "https://github.com/aufarijaal/sistem-papbct"
         }
       ],
-      "images": ["pbct-1.webp"]
+      "images": [
+        "pbct-1.webp"
+      ]
     },
     {
       "title": "Online Book Store",
-      "desc": "This is an online book store project that combines Nuxt and Laravel (Sail) for a smooth user experience and Midtrans for the payment gateway. Nuxt handles the design, while Laravel manages the backend, allowing easy navigation through a diverse collection of books and genres. It's a straightforward digital platform for book enthusiasts, where technology and literature seamlessly converge.",
+      "desc": "This is an online book store project that combines Nuxt and Laravel for a smooth user experience and Midtrans for the payment gateway. Nuxt handles the design, while Laravel manages the backend, allowing easy navigation through a diverse collection of books and genres. It's a straightforward digital platform for book enthusiasts, where technology and literature seamlessly converge.",
       "techs": [
         {
           "name": "Laravel",
@@ -171,7 +179,70 @@
           "url": "https://github.com/aufarijaal/online-book-store-frontend"
         }
       ],
-      "images": ["obs-1.png", "obs-2.png", "obs-3.png", "obs-4.png", "obs-5.png"]
+      "images": [
+        "obs-7.png",
+        "obs-6.png",
+        "obs-2.png"
+      ]
+    },
+    {
+      "title": "JoFi (Job Finder)",
+      "desc": "A Job Finding website built using Express JS as backend and Next JS as Front end and also Supabase as the database service connected through Prisma as ORM.",
+      "techs": [
+        {
+          "name": "Express JS",
+          "icon": "skill-icons:expressjs-light",
+          "customClasses": []
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "devicon:tailwindcss",
+          "customClasses": []
+        },
+        {
+          "name": "Supabase",
+          "icon": "logos:supabase-icon",
+          "customClasses": []
+        },
+        {
+          "name": "Next JS",
+          "icon": "devicon:nextjs",
+          "customClasses": []
+        },
+        {
+          "name": "Prisma",
+          "icon": "logos:prisma",
+          "customClasses": []
+        }
+      ],
+      "links": [
+        {
+          "name": "BE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/jofi-backend"
+        },
+        {
+          "name": "FE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/jofi-frontend"
+        },
+        {
+          "name": "Site Link",
+          "icon": "mdi:web",
+          "url": "https://www.jofi.my.id"
+        }
+      ],
+      "images": [
+        "jofi-screenshots/2024-05-22 19.11.01 www.jofi.my.id 21cc15df3a4d.png",
+        "jofi-screenshots/2024-05-22 19.11.38 www.jofi.my.id 5be7b941aa70.png",
+        "jofi-screenshots/2024-05-22 19.12.34 www.jofi.my.id 2f6f1414ab15.png",
+        "jofi-screenshots/2024-05-22 19.13.00 www.jofi.my.id 62355edc885c.png",
+        "jofi-screenshots/2024-05-22 19.13.57 www.jofi.my.id 9189578af118.png",
+        "jofi-screenshots/2024-05-22 19.14.23 www.jofi.my.id 3e902798be10.png",
+        "jofi-screenshots/2024-05-22 19.14.34 www.jofi.my.id 472affff7dc2.png",
+        "jofi-screenshots/2024-05-22 19.14.50 www.jofi.my.id d19928cb7f39.png",
+        "jofi-screenshots/2024-05-22 19.14.58 www.jofi.my.id 1a7ba45f6af6.png"
+      ]
     }
   ]
 }

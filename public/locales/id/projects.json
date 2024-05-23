@@ -21,7 +21,9 @@
         }
       ],
       "links": [],
-      "images": ["bp-1.webp"]
+      "images": [
+        "bp-1.webp"
+      ]
     },
     {
       "title": "Billing Playstation Electron",
@@ -93,7 +95,9 @@
           "url": "https://github.com/aufarijaal/blogqu"
         }
       ],
-      "images": ["blogqu-1.webp"]
+      "images": [
+        "blogqu-1.webp"
+      ]
     },
     {
       "title": "Web App untuk Mengelola Produksi Bubuk Cangkang Telur",
@@ -117,7 +121,9 @@
         {
           "name": "IoT",
           "icon": "eos-icons:iot",
-          "customClasses": ["dark:text-white"]
+          "customClasses": [
+            "dark:text-white"
+          ]
         }
       ],
       "links": [
@@ -127,11 +133,13 @@
           "url": "https://github.com/aufarijaal/sistem-papbct"
         }
       ],
-      "images": ["pbct-1.webp"]
+      "images": [
+        "pbct-1.webp"
+      ]
     },
     {
       "title": "Online Book Store",
-      "desc": "Sebuah aplikasi web online book store yang mengkombinasikan Nuxt JS dan Laravel (Sail) untuk UX yang smooth dan Midtrans sebagai payment gateway nya. Nuxt JS meng handle desain frontend nya, sedangkan Laravel untuk backend nya sebagai API, yang memberikan kemudahan navigasi ke koleksi buku dan genre yang beragam.",
+      "desc": "Sebuah aplikasi web online book store yang mengkombinasikan Nuxt JS dan Laravel untuk UX yang smooth dan Midtrans sebagai payment gateway nya. Nuxt JS meng handle desain frontend nya, sedangkan Laravel untuk backend nya sebagai API, yang memberikan kemudahan navigasi ke koleksi buku dan genre yang beragam.",
       "techs": [
         {
           "name": "Laravel",
@@ -171,7 +179,70 @@
           "url": "https://github.com/aufarijaal/online-book-store-frontend"
         }
       ],
-      "images": ["obs-1.png", "obs-2.png", "obs-3.png", "obs-4.png", "obs-5.png"]
+      "images": [
+        "obs-7.png",
+        "obs-6.png",
+        "obs-2.png"
+      ]
+    },
+    {
+      "title": "JoFi (Job Finder)",
+      "desc": "Website pencarian lowongan kerja dengan berbagai fitur seperti cari pekerjaan, apply pekerjaan, manage lowongan untuk employer, dan admin role. Dibuat menggunakan Express JS sebagai backend dan Next JS sebagai frontend dan juga Supabase sebagai database lalu Prisma sebagai ORM.",
+      "techs": [
+        {
+          "name": "Express JS",
+          "icon": "skill-icons:expressjs-light",
+          "customClasses": []
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "devicon:tailwindcss",
+          "customClasses": []
+        },
+        {
+          "name": "Supabase",
+          "icon": "logos:supabase-icon",
+          "customClasses": []
+        },
+        {
+          "name": "Next JS",
+          "icon": "devicon:nextjs",
+          "customClasses": []
+        },
+        {
+          "name": "Prisma",
+          "icon": "logos:prisma",
+          "customClasses": []
+        }
+      ],
+      "links": [
+        {
+          "name": "BE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/jofi-backend"
+        },
+        {
+          "name": "FE Repo",
+          "icon": "mdi:github",
+          "url": "https://github.com/aufarijaal/jofi-frontend"
+        },
+        {
+          "name": "Site Link",
+          "icon": "mdi:web",
+          "url": "https://www.jofi.my.id"
+        }
+      ],
+      "images": [
+        "jofi-screenshots/2024-05-22 19.11.01 www.jofi.my.id 21cc15df3a4d.png",
+        "jofi-screenshots/2024-05-22 19.11.38 www.jofi.my.id 5be7b941aa70.png",
+        "jofi-screenshots/2024-05-22 19.12.34 www.jofi.my.id 2f6f1414ab15.png",
+        "jofi-screenshots/2024-05-22 19.13.00 www.jofi.my.id 62355edc885c.png",
+        "jofi-screenshots/2024-05-22 19.13.57 www.jofi.my.id 9189578af118.png",
+        "jofi-screenshots/2024-05-22 19.14.23 www.jofi.my.id 3e902798be10.png",
+        "jofi-screenshots/2024-05-22 19.14.34 www.jofi.my.id 472affff7dc2.png",
+        "jofi-screenshots/2024-05-22 19.14.50 www.jofi.my.id d19928cb7f39.png",
+        "jofi-screenshots/2024-05-22 19.14.58 www.jofi.my.id 1a7ba45f6af6.png"
+      ]
     }
   ]
 }
