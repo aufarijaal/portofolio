@@ -73,6 +73,11 @@
       "customClasses": []
     },
     {
+      "name": "Bootstrap",
+      "icon": "devicon:bootstrap",
+      "customClasses": []
+    },
+    {
       "name": "Tailwind CSS",
       "icon": "devicon:tailwindcss",
       "customClasses": []
@@ -90,6 +95,11 @@
     {
       "name": "Firebase",
       "icon": "vscode-icons:file-type-firebase",
+      "customClasses": []
+    },
+    {
+      "name": "Supabase",
+      "icon": "logos:supabase-icon",
       "customClasses": []
     },
     {
@@ -123,8 +133,13 @@
       "customClasses": []
     },
     {
-      "name": "Docker",
-      "icon": "devicon:docker",
+      "name": "Swagger",
+      "icon": "devicon:swagger",
+      "customClasses": []
+    },
+    {
+      "name": "Express JS",
+      "icon": "skill-icons:expressjs-dark",
       "customClasses": []
     }
   ],

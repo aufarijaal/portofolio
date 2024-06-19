@@ -1,11 +1,11 @@
 import { Icon } from "@iconify-icon/react";
 import fs from "fs";
 import matter from "gray-matter";
-import md from "markdown-it";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import ThemeToggleBtn from "../../components/ThemeToggleBtn";
 import path from "path";
+import MarkdownIt from "markdown-it";
 
 export async function getStaticPaths() {
   try {
@@ -55,7 +55,6 @@ export async function getStaticProps({ params: { slug } }: any) {
 
 export default function Post({ frontmatter, content }: any) {
   const router = useRouter();
-
   return (
     <div>
       <Head>
@@ -82,9 +81,9 @@ export default function Post({ frontmatter, content }: any) {
             </div>
           </header>
 
-          <div className="p-4 font-inter">
+          <div className="p-4">
             <h1>{frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+            <div dangerouslySetInnerHTML={{ __html: MarkdownIt().render(content) }} />
           </div>
         </div>
       </main>

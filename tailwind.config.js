@@ -11,11 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["var(--font-inter)"],
+        sans: ["Geist", defaultTheme.fontFamily.sans],
       },
-    },
-    fontFamily: {
-      sans: ["var(--font-public-sans)"],
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],

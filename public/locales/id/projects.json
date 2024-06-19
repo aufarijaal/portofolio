@@ -147,6 +147,11 @@
           "customClasses": []
         },
         {
+          "name": "Nuxt JS",
+          "icon": "logos:nuxt-icon",
+          "customClasses": []
+        },
+        {
           "name": "Bootstrap",
           "icon": "devicon:bootstrap",
           "customClasses": []
@@ -154,16 +159,6 @@
         {
           "name": "MySQL",
           "icon": "logos:mysql",
-          "customClasses": []
-        },
-        {
-          "name": "Docker",
-          "icon": "devicon:docker",
-          "customClasses": []
-        },
-        {
-          "name": "Nuxt JS",
-          "icon": "logos:nuxt-icon",
           "customClasses": []
         }
       ],
@@ -180,9 +175,12 @@
         }
       ],
       "images": [
-        "obs-7.png",
-        "obs-6.png",
-        "obs-2.png"
+        "obs-1.png",
+        "obs-2.png",
+        "obs-3.png",
+        "obs-4.png",
+        "obs-5.png",
+        "obs-6.png"
       ]
     },
     {
