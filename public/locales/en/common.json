@@ -93,11 +93,6 @@
       "customClasses": []
     },
     {
-      "name": "Firebase",
-      "icon": "vscode-icons:file-type-firebase",
-      "customClasses": []
-    },
-    {
       "name": "Supabase",
       "icon": "logos:supabase-icon",
       "customClasses": []
