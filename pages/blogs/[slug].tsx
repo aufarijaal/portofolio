@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import ThemeToggleBtn from "../../components/ThemeToggleBtn";
 import path from "path";
 import MarkdownIt from "markdown-it";
+import Link from "next/link";
 
 export async function getStaticPaths() {
   try {
@@ -65,7 +66,7 @@ export default function Post({ frontmatter, content }: any) {
       </Head>
 
       <main className="w-full min-h-screen bg-white dark:bg-zinc-900">
-        <div className="mx-auto prose-sm prose md:prose-base dark:prose-invert">
+        <div className="mx-auto max-w-4xl">
           <header className="flex items-center h-16 px-2 border-b dark:border-zinc-800">
             <button
               className="flex items-center p-2 transition rounded-lg text-sky-700 hover:bg-sky-100 hover:text-sky-500 dark:text-white dark:hover:bg-sky-100/10 dark:hover:text-sky-300"
@@ -74,14 +75,16 @@ export default function Post({ frontmatter, content }: any) {
               <Icon icon="mdi:arrow-left" width="20" />
             </button>
 
-            <div className="w-full text-lg font-bold text-center flex-grow-1">Blogs</div>
+            <Link href="/" className="w-full text-lg font-bold text-center flex-grow-1">
+              aufarijaal's blogs
+            </Link>
 
             <div>
               <ThemeToggleBtn />
             </div>
           </header>
 
-          <div className="p-4">
+          <div className="p-4 prose prose-sm md:prose-base max-w-none dark:prose-invert">
             <h1>{frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: MarkdownIt().render(content) }} />
           </div>

@@ -1,5 +1,5 @@
 ---
-title: "The tree Command: Visualizing Directory Structures"
+title: "🌴 The tree Command: Visualizing Directory Structures"
 metaTitle: "Exploring the tree Command for Directory Visualization"
 metaDesc: "Learn how to use the versatile tree command to visualize directory structures on various platforms, including Linux, Unix, and Windows. Customize the output, limit depth, and enhance your understanding of file organization."
 date: "January 13 2024"
