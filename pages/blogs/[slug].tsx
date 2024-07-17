@@ -76,7 +76,7 @@ export default function Post({ frontmatter, content }: any) {
             </button>
 
             <Link href="/" className="w-full text-lg font-bold text-center flex-grow-1">
-              aufarijaal's blogs
+              aufarijaal&apos;s blogs
             </Link>
 
             <div>
