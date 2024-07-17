@@ -148,7 +148,7 @@ const Navbar: React.FC<{
         <div>
           <button
             className="relative w-[110px] h-[40px] rounded-xl overflow-hidden"
-            onClick={() => window.open("/muhammad_aufa_rijal-cv.pdf")}
+            onClick={() => window.open("/muhammad_aufa_rijal_cv.pdf")}
           >
             <div className="absolute inset-0 z-10 grid w-full h-full place-items-center">
               <div
